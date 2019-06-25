@@ -1,0 +1,18 @@
+{
+    "name": "react-project-template-cli",
+    "version": "1.0.4",
+    "description": "my react template cli ",
+    "main": "init.js",
+    "bin": {
+        "react-project-template-cli": "bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "zyh",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "commander": "^2.20.0"
+    }
+}
