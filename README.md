@@ -5,5 +5,5 @@
 ```javascript
     npm i -g react-project-template-cli
     mkdir project-name
-    react-project-template-cli
+    react-project-template-cli i
 ```
