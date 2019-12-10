@@ -5,7 +5,7 @@ const projectUrl = 'https://github.com/HuiGeGeGitHub/react-project-template.git'
 
 module.exports = () => {
     console.log(chalk.magenta('begin clone >>>>>> '))
-    let cmdStr = `git clone ${projectUrl}`
+    let cmdStr = `git clone --depth=1 ${projectUrl}`
     exec(cmdStr, (error, stdout, stderr) => {
         if (error) {
             console.log(chalk.red(error))
